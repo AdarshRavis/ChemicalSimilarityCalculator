@@ -4,7 +4,10 @@ from rdkit.Chem import AllChem
 from rdkit import DataStructs
 
 # Set the app title
-st.title("Molecule Similarity Calculator")
+st.title("Molecular Similarity Calculator")
+
+st.write("Adarsh Ravishankar, MD")
+st.write("Departments of Medicine and Dermatology, University of Minnesota")
 
 # Get the SMILES notations from the user
 smiles1 = st.text_input("Enter the SMILES notation for molecule 1:")
