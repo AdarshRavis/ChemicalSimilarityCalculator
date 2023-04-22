@@ -1,3 +1,9 @@
+import streamlit as st
+from rdkit import Chem
+from rdkit.Chem import AllChem
+from rdkit import DataStructs
+
+
 # Set the app title
 st.title("Molecule Similarity Calculator")
     
